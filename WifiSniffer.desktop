@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Exec=sh /home/telecom/wifisniffer/sniff.sh
+Name=WifiSniffer
+GenericName=WifiSniffer
+Comment=Wireshark Launcher for Wireless NIC
+Encoding=UTF-8
+Terminal=true
+Type=Application
+Categories=Application;Network;
+Icon=/home/telecom/wifisniffer/wireshark-icon.png
+Name[en_US]=WifiSniffer
+GenericName[en_US.UTF-8]=Launch Wifi Sniffer

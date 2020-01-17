@@ -1,0 +1,15 @@
+README
+
+To Sniff you must install your USB NIC into the laptop and make sure that the VM has access to it under VirtualBox > VM > Settings > USB > USB Device Filters. Add the USB Adapter and click ok. 
+
+Edit the sniff.sh script in /home/telecom/sniff.sh
+	* Make sure the Network Adapter name matches the one you have inserted in USB. 
+		* ifconfig - get the usb wireless adapter name
+		* nano /home/telecom/sniff.sh - replace the 
+
+Launch Wireshark
+	* From Terminal: 
+		 sh /home/telecom/sniff.sh
+
+	Note: If no packets are showing up you may need to reseat the USB NIC and run the script again. Or just try to run the script again. 
+
