@@ -7,6 +7,8 @@ I have had trouble doing packet captures in Microsoft Windows promiscuous mode. 
 * Panda Wireless PAU07
 
 
+# Installation
+
 ## Create new VM in Virtualbox
 
 * Name: WifiSniffer
@@ -77,7 +79,7 @@ chmod 755 /home/telecom/wifisniffer
 sh /home/telecom/wifisniffer/install.sh
 ```
 
-## Using the Tools
+# Using the Tools
 
 To Sniff wireless traffic you must insert your USB Wireless NIC into the laptop and make sure that the VM has access to it under VirtualBox > VM > Settings > USB > USB Device Filters. Add the USB Adapter and click ok. 
 
