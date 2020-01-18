@@ -1,4 +1,13 @@
-# Create new VM in Virtualbox
+# Description
+These are instructions and scripts to run Wireshark as a VM in Vitrualbox on top of windows using an external Wireless NIC. 
+
+I have had trouble doing packet captures in Microsoft Windows promiscuous mode. This was an attempt to use the same laptop but do the capturing in a Linux VM instead of carrying around another laptop.  
+
+#### Tested NICs that work on both 2.4Ghz and 5Ghz: 
+* Panda Wireless PAU07
+
+
+## Create new VM in Virtualbox
 
 * Name: WifiSniffer
 * Type: Linux
@@ -34,8 +43,10 @@
 		
 Click Ok and Start VM - Normal Start
 
-# Install
-* Install Ubuntu Desktop 18.04 with telecom user as an example. 
+## Install OS
+
+* Install Ubuntu Desktop 18.04. 
+	* Using "telecom" as the example user for future reference. 
 
 ## Add Telecom to Sudoers with No password (Optional)
 ```
@@ -61,7 +72,7 @@ git clone https://github.com/iahunter/wifisniffer.git /home/telecom/wifisniffer
 chmod 755 /home/telecom/wifisniffer
 ```
 
-## Run Installation
+## Run Installation of WifiSniffer Dependencies
 ```
 sh /home/telecom/wifisniffer/install.sh
 ```
