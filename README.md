@@ -9,6 +9,8 @@ We have had trouble doing 802.11 plug radiotap packet captures in Microsoft Wind
 
 # Installation
 
+Download Ubuntu Desktop ISO from thier website. https://ubuntu.com/download/desktop
+
 ## Create new VM in Virtualbox
 
 * Name: WifiSniffer
