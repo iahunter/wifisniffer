@@ -1,7 +1,7 @@
 # Description
 These are instructions and scripts to run Wireshark as a VM in Vitrualbox on top of windows using an external Wireless NIC. 
 
-I have had trouble doing packet captures in Microsoft Windows promiscuous mode. This was an attempt to use the same laptop but do the capturing in a Linux VM instead of carrying around another laptop.  
+We have had trouble doing 802.11 plug radiotap packet captures in Microsoft Windows promiscuous mode. This was an attempt to use the hardware laptop running windows but do the capturing in a Linux VM instead of carrying around another piece of hardware.
 
 #### Tested NICs that work on both 2.4GHz and 5GHz: 
 * Panda Wireless PAU07
