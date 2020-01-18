@@ -10,10 +10,6 @@ echo "Installing Teamviewer \n"
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 sudo apt install ./teamviewer_amd64.deb -y
 
-
-# Install Git
-sudo apt install git -y
-
 ############################################
 
 # Install Net tools for ifconfig
