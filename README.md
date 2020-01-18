@@ -122,13 +122,13 @@ Note: If no packets are showing up you may need to reseat the USB NIC and run
 ### Start Capture
 * Capture > Options > Select your Wireless Interface from ifconfig output above. 
 
-
-
-### Notes: 
-* You can use iwconfig to make sure wireless NIC is showing up and in monitor mode after launching. 
-
 #### Capture Filter for Known MAC:
 ```
 (wlan.sa == 14:9d:11:22:33:44) || (wlan.da == 14:9d:11:22:33:44)
 ```
+
+### Notes: 
+* You can use iwconfig to make sure wireless NIC is showing up and in monitor mode after launching. 
+
+
 
