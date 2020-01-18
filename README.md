@@ -100,7 +100,7 @@ nano /home/telecom/wifisniffer/sniff.sh
 ```
 * Replace the adapter variable with your USB Wireless NIC name from ifconfig output above.
 	```
-	ADAPTER="YOURNICNAME"
+	ADAPTER="YOUR-NIC-NAME"
 	```
 
 ### Launch WifiSniffer
