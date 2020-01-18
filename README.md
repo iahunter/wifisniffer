@@ -4,6 +4,7 @@ Install Ubuntu Desktop 18.04 with telecom user as an example.
 ## Add Telecom to Sudoers with No password (Optional)
 ```
 nano /etc/sudoers
+
 # Add line to end of file to allow sudo without having to type the password everytime. 
 telecom ALL=(ALL) NOPASSWD:ALL
 ```
