@@ -45,7 +45,7 @@ cp $HOME/wifisniffer/WifiSniffer.desktop $HOME/Desktop/
 
 ############################################
 # Setup  background of Desktop for Wireless 
-gsettings set org.gnome.desktop.background primary-color "#111111"
+gsettings set org.gnome.desktop.background primary-color "#000000"
 gsettings set org.gnome.desktop.background picture-uri /home/telecom/wifisniffer/background.png
 
 echo "Install Complete"
