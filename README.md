@@ -59,7 +59,7 @@ sudo nano /etc/sudoers
 
 ## Install Git
 ```
-sudo apt install git
+sudo apt install git -y
 ```
 
 ## Clone Repo to Home Directory of User "telecom"
