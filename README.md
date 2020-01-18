@@ -19,7 +19,7 @@ Download Ubuntu Desktop ISO from thier website. https://ubuntu.com/download/desk
 * Type: Linux
 * Version: Ubuntu 6(4-bit)
 
-* Memory: 8192MB
+* Memory: 8192MB (adjustable based on needs)
 
 * Create a virtual hard disk file
 
