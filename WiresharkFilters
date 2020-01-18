@@ -1,3 +1,9 @@
 
-Example MAC FIlter
+# Example MAC FIlter
 (wlan.sa == 14:9d:11:22:33:44) || (wlan.da == 14:9d:11:22:33:44)
+
+# AP Beacon Frames
+wlan.fc.type_subtype == 0x0008
+
+# AP Beacons for a specific SSID
+(wlan.fc.type_subtype == 0x0008) && (wlan.ssid == "TEST")
