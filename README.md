@@ -114,3 +114,7 @@ Note: If no packets are showing up you may need to reseat the USB NIC and run
 	* Click Open
 	* Click Ok
 
+### Select the Wifi Channel you want to Sniff
+* View > Wireless Toolbar
+	* Select the Channel you want to Sniff.
+	* May need to get this from Spectrum Analyzer of known APs in the area or your wireless controller. 
