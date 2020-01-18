@@ -17,7 +17,7 @@ Download Ubuntu Desktop ISO from thier website. https://ubuntu.com/download/desk
 
 * Name: WifiSniffer
 * Type: Linux
-* Version: Ubuntu 6(4-bit)
+* Version: Ubuntu (64-bit)
 
 * Memory: 8192MB (adjustable based on needs)
 
