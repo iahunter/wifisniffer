@@ -1,6 +1,11 @@
 # Install
 Install Ubuntu Desktop 18.04 with telecom user as an example.
 
+## Add Telecom to Sudoers with No password (Optional)
+```
+telecom ALL=(ALL) NOPASSWD:ALL
+```
+
 ## Install Git
 ```
 sudo apt install git
