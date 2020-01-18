@@ -103,12 +103,13 @@ nano /home/telecom/wifisniffer/sniff.sh
 
 * From Desktop: 
 	* Double click WifiSniffer Icon on the Desktop
+	* Click Approve and Trust if prompted when first running.
 
 * From Terminal: 
 	```
 	sh /home/telecom/wifisniffer/sniff.sh
 	```
-Note: If no packets are showing up you may need to reseat the USB NIC and run  
+Note: If no traffic is showing on the interface you want to sniff, you may need to reseat the USB NIC and run it again.
 
 ### Add Wifi Color Rules to Wireshark: 
 * View > Color Rules > Import
