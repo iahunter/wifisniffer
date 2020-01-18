@@ -124,7 +124,8 @@ Note: If no traffic is showing on the interface you want to sniff, you may need 
 ### Select the Wifi Channel you want to Sniff
 * View > Wireless Toolbar
 	* Select the Channel you want to Sniff.
-	* May need to get this from Spectrum Analyzer of known APs in the area or your wireless controller. 
+	* May need to get this from a Spectrum Analyzer of known APs in the area or your wireless controller. 
+		* Metageek.com has a lite version of inSSIDer that is free with no license key required. (free account is required)
 	
 ### Start Capture
 * Capture > Options > Select your Wireless Interface from ifconfig output above. 
