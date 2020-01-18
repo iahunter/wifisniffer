@@ -4,14 +4,6 @@
 echo "Changing Resolution \n"
 xrandr --size 1920x1200
 
-echo "Adding Telecom to Sudoers \n"
-sudo cat << EOF >> /etc/sudoers
-
-# Telecom no password when sudo
-telecom ALL=(ALL) NOPASSWD:ALL
-EOF
-
-
 ############################################
 echo "Installing Teamviewer \n"
 # Install Teamviewer
@@ -42,6 +34,8 @@ sudo chmod -R 755 $HOME/wifisniffer
 
 # Create Desktop Icon for Wifi Sniffer
 cp $HOME/wifisniffer/WifiSniffer.desktop $HOME/Desktop/
+ln -s $HOME/wifisniffer/WiresharkFilters $HOME/Desktop/WiresharkFilters
+ln -s $HOME/wifisniffer/README.md $HOME/Desktop/README
 
 ############################################
 # Setup  background of Desktop for Wireless 
