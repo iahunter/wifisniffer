@@ -25,6 +25,10 @@ sudo apt install git -y
 
 ############################################
 
+# Install Net tools for ifconfig
+sudo apt install net-tools -y
+
+
 echo "Installing Wireshark \n"
 # Install Wireshark
 sudo apt-get install wireshark -y
