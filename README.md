@@ -10,7 +10,7 @@ We have had trouble doing 802.11 plus radiotap packet captures in Microsoft Wind
 # Installation
 
 Download Oracle Virtualbox and install on your laptop. http://download.virtualbox.org/virtualbox/
-* Download Oracle Guest Additions ISO as well for your version. This is later added to Ubuntu VM for copy paste functionality from Host to VM.
+* Download VBoxGuestAdditions ISO as well for your version. This is later added to Ubuntu VM for copy & paste functionality from Windows to Ubuntu VM.
 
 Download Ubuntu Desktop ISO from thier website. https://ubuntu.com/download/desktop
 
@@ -83,6 +83,22 @@ chmod 755 /home/telecom/wifisniffer
 ```
 sh /home/telecom/wifisniffer/install.sh
 ```
+
+## Install VirtualBoxGuestAdditions
+### In VirtualBox VM Settings
+* Storage
+	* Controller:IDE
+		* Empty: 64 MB
+			* Attributes: 64 MB
+				* Optical Drive: Click on CD Image and select VBoxGuestAdditions ISO you have downloaded earlier.
+				
+### In the VM
+* Navigate to the CD Image on Ubuntu Desktop
+* Click Run Software in top right corner of window. 
+* Reboot
+
+### Test copy & paste from Windows to Ubuntu. 
+* You should now be able to copy and paste text from Windows to Ubuntu VM. 
 
 # Using the Tools
 
