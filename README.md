@@ -108,14 +108,14 @@ To Sniff wireless traffic you must insert your USB Wireless NIC into the laptop 
 
 * Get the Network Adapter name of your USB Wireless NIC - Copy the name
 ```
-ifconfig
+iwconfig
 ```
 
 #### Edit Adapter Variable
 ```
 nano /home/telecom/wifisniffer/sniff.sh 
 ```
-* Replace the adapter variable with your USB Wireless NIC name from ifconfig output above.
+* Replace the adapter variable with your USB Wireless NIC name from iwconfig output above.
 	```
 	ADAPTER="YOUR-NIC-NAME"
 	```
@@ -145,7 +145,7 @@ Note: If no traffic is showing on the interface you want to sniff, you may need 
 		* Metageek.com has a lite version of inSSIDer that is free with no license key required. (free account is required)
 	
 ### Start Capture
-* Capture > Options > Select your Wireless Interface from ifconfig output above. 
+* Capture > Options > Select your Wireless Interface from iwconfig output above. 
 
 #### Capture Filter for Known MAC:
 ```
