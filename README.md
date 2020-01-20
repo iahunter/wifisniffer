@@ -147,7 +147,7 @@ Note: If no traffic is showing on the interface you want to sniff, you may need 
 ### Start Capture
 * Capture > Options > Select your Wireless Interface from iwconfig output above. 
 
-#### Capture Filter for Known MAC:
+#### Display Filter for Known MAC:
 ```
 wlan.addr == 14:9d:11:22:33:44
 ```
