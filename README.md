@@ -9,8 +9,8 @@ We have had trouble doing 802.11 plus radiotap packet captures in Microsoft Wind
 
 # Installation
 
-Download Oracle Virtualbox and install on your laptop. http://download.virtualbox.org/virtualbox/
-* Download VBoxGuestAdditions ISO as well for your version. This is later added to Ubuntu VM for copy & paste functionality from Windows to Ubuntu.
+Download Oracle Virtualbox and install on your laptop. https://www.virtualbox.org/wiki/Downloads
+* Download VBoxGuestAdditions ISO as well for your version. This is later added to Ubuntu VM for copy & paste functionality from Windows to Ubuntu. http://download.virtualbox.org/virtualbox/
 
 Download Ubuntu Desktop ISO from thier website. https://ubuntu.com/download/desktop
 
