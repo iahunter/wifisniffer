@@ -5,8 +5,11 @@ wlan.addr == 14:9d:11:22:33:44
 # AP Beacon Frames
 wlan.fc.type_subtype == 0x0008
 
-# AP Beacons for a specific SSID
+# AP Beacons for a specific SSID Name
 (wlan.fc.type_subtype == 0x0008) && (wlan.ssid == "TEST")
+
+# AP Beacons for a specific BSSID
+(wlan.fc.type_subtype == 0x0008) && (wlan.bssid == 14:9d:11:22:33:44)
 
 # EAP Authentication
 eapol.type == 0
