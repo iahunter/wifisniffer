@@ -2,7 +2,7 @@
 ##########################################################
 
 # Define USB Wireless Adapter Name Here...
-ADAPTER="wlx9cefd5fe17f4"
+ADAPTER="wlan0"
 
 echo "Wireless Adapter Name: "$ADAPTER"\n"
 
