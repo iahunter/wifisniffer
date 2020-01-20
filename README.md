@@ -1,5 +1,5 @@
 # Description
-These are instructions and scripts to run Wireshark as a VM in Vitrualbox on top of windows using an external Wireless NIC. 
+These are instructions and scripts to run Wireshark as an Ubuntu VM in Vitrualbox on top of Windows using an external Wireless NIC. 
 
 We have had trouble doing 802.11 plus radiotap packet captures in Microsoft Windows promiscuous mode. This was an attempt to use the same hardware laptop running windows but do the capturing in a Linux VM. 
 
