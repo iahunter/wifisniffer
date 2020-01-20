@@ -10,3 +10,9 @@ wlan.fc.type_subtype == 0x0008
 
 # EAP Authentication
 eapol.type == 0
+
+# Disassociates: 
+wlan.fc.type_subtype == 0x000a
+
+# Deauthentications: 
+wlan.fc.type_subtype == 0x000c
