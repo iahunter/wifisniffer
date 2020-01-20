@@ -149,11 +149,12 @@ Note: If no traffic is showing on the interface you want to sniff, you may need 
 
 #### Capture Filter for Known MAC:
 ```
-(wlan.sa == 14:9d:11:22:33:44) || (wlan.da == 14:9d:11:22:33:44)
+wlan.addr == 14:9d:11:22:33:44
 ```
 
 ### Notes: 
 * You can use iwconfig to make sure wireless NIC is showing up and in monitor mode after launching. 
+* Useful Display Filters can be found in [WiresharkFilters](WiresharkFilters)
 
 
 
