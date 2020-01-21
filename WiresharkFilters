@@ -14,6 +14,9 @@ wlan.fc.type_subtype == 0x0008
 # EAP Authentication
 eapol.type == 0
 
+# Authentications
+wlan.fc.type_subtype == 0x000b
+
 # EAP Authentication for Specific MAC
 (eapol.type == 0) && (wlan.addr == 14:d0:11:22:33:44)
 
