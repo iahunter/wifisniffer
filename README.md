@@ -47,6 +47,14 @@ Download Ubuntu Desktop ISO from thier website. https://ubuntu.com/download/desk
 * USB
 	* USB Device Filters
 		* Click Add and select your Wireless USB Adapter
+* Shared folders
+	* Create a folder on your windows desktop "VMShare" - used to transfer files between VM and Windows Host
+	* In Virtualbox VM Shared Folders - Click Add Button
+		* Folder Path - Navigate to your Desktop "VMShare"
+		* Folder Name: VMShare
+			* Auto-mount
+		* Mount point: VMShare
+			* Check Make Permanent
 		
 Click Ok and Start VM - Normal Start
 
@@ -99,6 +107,11 @@ sh /home/telecom/wifisniffer/install.sh
 
 ### Test copy & paste from Windows to Ubuntu. 
 * You should now be able to copy and paste text from Windows to Ubuntu VM. 
+
+### Add File Permissions to VMShare Folder
+```
+sudo adduser $USER vboxsf
+```
 
 # Using the Tools
 
