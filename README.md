@@ -26,7 +26,7 @@ Download Ubuntu Desktop ISO from thier website. https://ubuntu.com/download/desk
 
 * VDI
 * Dynamically allocated
-* 10 GB
+* 40 GB
 
 ### Change VM defaults: 
 * General
